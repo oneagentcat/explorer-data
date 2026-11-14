@@ -1,0 +1,72 @@
+name: VeilSwap
+categories:
+  - applications
+  - defi
+usecases:
+  - currency
+  - swap
+ecosystem:
+  - bitcoin
+  - monero
+  - zcash
+  - ethereum
+description: Non-custodial instant-swap aggregator specialized in privacy corridors
+  (XMR/ZEC/BTC/USDT). Routes through ChangeNOW and FixedFloat. No KYC, no accounts,
+  mechanized refunds, public quote API, and a published measured-cost dataset (2000+
+  samples). Tor onion mirror available.
+product_launch_day: "2025-09-15"
+sunset: false
+assets_used:
+  - BTC
+  - XMR
+  - ZEC
+  - USDT
+have_token: false
+tokens: []
+links:
+  web: https://veilswap.io/
+  blog: https://veilswap.io/blog
+  github: ""
+  forum: ""
+  docs: https://veilswap.io/data
+  whitepaper: ""
+  block_explorer: ""
+  governance: ""
+  twitter: ""
+  discord: ""
+  telegram: ""
+  lens: ""
+  farcaster: ""
+project_status:
+  live_status: true
+  mainnet: true
+  testnet: false
+blockchain_features:
+  opensource: false
+  upgradability:
+    enabled: false
+  asset_custody_type: non-custody
+  encryption: ""
+storage: {}
+privacy_policy:
+  defined: true
+  link: https://veilswap.io/privacy
+  data_usage: ""
+compliance: ""
+tracebility:
+  kyc: false
+  tracked_data: No accounts. Order records keep asset pair, amounts and status only;
+    no user identity is collected. Logs are minimized and Tor access is supported
+    via an onion mirror.
+  sign_in_type_requirments: []
+default_privacy: true
+audits: []
+third_party_dependency: ChangeNOW, FixedFloat (upstream liquidity providers)
+social_trust: ""
+technical_spof: ""
+team:
+  anonymous: true
+  teammembers: []
+funding: []
+history: []
+id: veilswap
